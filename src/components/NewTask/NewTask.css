@@ -1,0 +1,33 @@
+.header {
+  width: 312px;
+  height: 31.11px;
+  left: 527px;
+  top: 287.17px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 31px;
+  /* identical to box height */
+
+  /* Text Color */
+
+  color: #777a87;
+}
+
+.btn {
+  background: #9d76f0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 13px;
+}
+
+input {
+
+  /* Color/Neutral/6 - White */
+
+  background: #ffffff;
+  /* Color/Neutral/4 - Grey 25% */
+
+  border: 1px solid #ecebed;
+  box-sizing: border-box;
+  border-radius: 8px;
+}

@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+}
+
+li {
+    text-decoration: none; 
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #777a87;
+  box-sizing: border-box;
+  border-radius: 6px;
+}

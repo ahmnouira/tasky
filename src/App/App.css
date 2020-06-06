@@ -108,9 +108,11 @@
   margin: 0 auto;
 }
 
-
-
 .icon-plus {
   position: absolute; 
   margin-left: 19px;
+}
+
+button {
+  cursor: pointer;
 }

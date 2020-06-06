@@ -1,4 +1,5 @@
 {
+  "proxy": "https://autofy-tasky.herokuapp.com",
   "name": "tasky",
   "version": "0.1.0",
   "description": "",

@@ -1,3 +1,6 @@
+import Tab from "../models/Tab"
+
+/** dumpy tasks data  **/
 export const TASKS = [
     'Go to the gym',
     'Prepare the project planiing',
@@ -7,19 +10,9 @@ export const TASKS = [
 ]
 
 export const TABS = [
-    {
-        name: 'home',
-        activeIcon: 'acHome',
-        inactiveIcon: 'inHome'
-    },
-    {
-        name: 'tasks',
-        activeIcon: 'acTasks',
-        inactiveIcon: 'inTasks',
 
-    }, {
-        name: 'done',
-        activeIcon: 'acDone',
-        inactiveIcon: 'inDone'
-    }
+    new Tab('Home', 'acHome', 'inHome'),
+    new Tab('My Tasks', 'acTasks', 'inTasks'),
+    new Tab('Done', 'acDone', 'inDone')
+
 ]

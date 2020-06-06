@@ -1,6 +1,5 @@
-.top_header {
+.top-header {
   width: 100%;
-  max-width: 1366px;
   height: 60px;
   margin: 0 auto;
   padding-left: 65.59px;
@@ -22,7 +21,7 @@
   height: 28px;
 }
 
-.logo_img {
+.logo-img {
   display: block;
   width: 20px;
   height: 20px;
@@ -32,7 +31,7 @@
   background-repeat: no-repeat;
 }
 
-.logo_text {
+.logo-text {
   width: 62px;
   height: 28px;
   font-weight: bold;
@@ -42,11 +41,7 @@
 }
 
 .nav {
-  list-style-type: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 14px;
 }
 
 .nav > li {
@@ -54,17 +49,18 @@
 }
 
 .nav > li > button {
-  font-weight: 700;
+  width: 100%;
+  font-weight: 500;
   display: flex;
+  align-content: center;
+  text-align: center;
   align-items: center;
-  width: 149px;
+  max-width: 149px;
   height: 40px;
   background-color: #fff;
   border: none;
-  padding-left: 25.33px;
-  padding-right: 24px;
+  padding: 0 25px;
   color: #e7e7ed;
-  font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
@@ -76,16 +72,18 @@
   color: #9d76f0;
 }
 
-.btn_text {
-  width: 46px;
-  height: 20px;
+.btn-text {
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
 }
 
-.btn_task {
+.btn-task {
+  width: 100%;
   display: flex;
   align-content: center;
-  align-items: center;
-  width: 206px;
+  max-width: 206px;
   height: 40px;
   border: none;
   color: #ffffff;
@@ -98,18 +96,21 @@
   border-radius: 13px;
 }
 
-.btn_task_text {
-  padding-left: 15px;
+.btn-task-text {
+  width: 100%;
+  margin-left: 13px;
+
 }
 
 .container {
-  width: 1000px;
+  width: 100%;
+  max-width: 998px;
   margin: 0 auto;
 }
 
 
-.main_image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+.icon-plus {
+  position: absolute; 
+  margin-left: 19px;
 }
